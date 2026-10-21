@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daoud Mohamed Rafik — Architecte à Alger</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Sticky Navigation -->
+    <header>
+        <div class="wrap">
+            <a class="logo" href="#top"><i></i><span>Mohamed Rafik DAOUD</span></a>
+            <nav>
+                <a href="#projets">Projets</a>
+                <a href="#apropos">À propos</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="wrap hero-grid">
+                <div>
+                    <h1>Architecture, lumière et mesure</h1>
+                    <p>Architecte à Alger, je conçois des espaces contemporains ancrés dans la culture méditerranéenne, de la première esquisse au suivi de chantier. Spécialisé en habitat et bâtiments administratifs.</p>
+                    <div class="hero-btns">
+                        <a class="btn" href="#contact">Parler de votre projet</a>
+                        <a class="btn alt" href="#projets">Voir les projets</a>
+                    </div>
+                </div>
+                <div class="arch-badge">
+                    <span>5 ans d'expérience · Sonatrach</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="sep" aria-hidden="true"></div>
+
+        <!-- Projects Section with Filters -->
+        <section id="projets">
+            <div class="wrap">
+                <div class="head">
+                    <h2>Projets</h2>
+                    <div class="filters" role="group" aria-label="Filtrer les projets">
+                        <button class="filter-btn active" data-f="all">Tous</button>
+                        <button class="filter-btn" data-f="ins">Institutionnel</button>
+                        <button class="filter-btn" data-f="res">Résidentiel & International</button>
+                    </div>
+                </div>
+
+                <div class="grid">
+                <!-- Project 1: Sonatrach -->
+                    <article class="card" data-c="ins">
+                        <div class="thumb" style="background-image: url('images/sh.jpg.jpeg'); background-size: cover; background-position: center;"></div>
+                        <h3>Siège régional Sonatrach TRC</h3>
+                        <p style="font-weight: 500; color: var(--ink); margin-bottom: 8px;">Hassi R’mel · Institutionnel & Administratif</p>
+                        <p style="margin-bottom: 12px; font-style: italic;">"Rigueur, sécurité et fonctionnalité au cœur du pôle énergétique."</p>
+                        <p>Suivi et coordination de la réalisation d'un complexe administratif d'envergure. Conçu pour répondre aux normes industrielles les plus strictes tout en offrant des espaces de travail ergonomiques, lumineux et adaptés aux conditions climatiques sahariennes.</p>
+                    </article>
+
+                   <!-- Project 2: Chlef -->
+                    <article class="card" data-c="ins">
+                        <div class="thumb" style="background-image: url('images/chlef.jpg.jpeg'); background-size: cover; background-position: center;"></div>
+                        <h3>Siège administratif</h3>
+                        <p style="font-weight: 500; color: var(--ink); margin-bottom: 8px;">Chlef, Algérie</p>
+                        <p style="margin-bottom: 12px; font-style: italic;">"Modélisation et Rendu 3D"</p>
+                        <p>Conception architecturale, modélisation volumétrique et rendus 3D réalistes pour un bâtiment institutionnel moderne et fonctionnel.</p>
+                    </article>
+
+                   <!-- Project 3: Mauritania -->
+                    <article class="card" data-c="res">
+                        <div class="thumb" style="background-image: url('images/muritania.jpg.jpeg'); background-size: cover; background-position: center;"></div>
+                        <h3>École et internat pour orphelins</h3>
+                        <p style="font-weight: 500; color: var(--ink); margin-bottom: 8px;">Guidimakha, Mauritanie</p>
+                        <p style="margin-bottom: 12px; font-style: italic;">"Construire un lieu qui protège, éduque et rassemble."</p>
+                        <p>Dans le sud du Guidimakha, ce projet imagine un internat-école où 30 orphelins trouvent un foyer et 250 élèves un lieu d'apprentissage. Matériaux locaux (terre, béton, bois) pour offrir fraîcheur, ombre et dignité.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="apropos" class="alt-bg">
+            <div class="wrap cols">
+                <div>
+                    <h2>À propos</h2>
+                    <ul class="facts">
+                        <li>Diplômé de l’EPAU, Alger</li>
+                        <li>5 ans d’expérience en architecture</li>
+                        <li>Poste actuel : Architecte chez Sonatrach</li>
+                        <li>Spécialité : Bâtiments administratifs & habitat</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>J’aime les bâtiments calmes, précis et bien proportionnés. Chaque projet commence par le lieu : la lumière, le vent, la mer et les matériaux disponibles.</p>
+                    <p>Mon parcours combine maîtrise technique (AutoCAD, Revit, SketchUp, DTRs) et sensibilité méditerranéenne pour que chaque occupant se sente véritablement chez lui.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="wrap">
+                <div class="head"><h2>Expertise & Services</h2></div>
+                <div class="svc">
+                    <div>
+                        <h3>Conception & BIM</h3>
+                        <p>AutoCAD, Revit, SketchUp, et modélisation 3D détaillée.</p>
+                    </div>
+                    <div>
+                        <h3>Rendus & Visualisation</h3>
+                        <p>Twinmotion et Lumion pour concevoir avant de construire.</p>
+                    </div>
+                    <div>
+                        <h3>Suivi de chantier</h3>
+                        <p>Conformité aux DTRs, spécifications techniques et supervision.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="sep" aria-hidden="true"></div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="alt-bg">
+            <div class="wrap cols">
+                <div>
+                    <h2>Contact</h2>
+                    <p style="margin-top:16px;color:var(--mute)">Discutons de votre projet architectural. Réponse rapide.</p>
+                    <ul class="facts">
+                        <li>Alger · Algérie</li>
+                       <li>Téléphone : +213 782 061 787</li>
+                        <li><a href="mailto:medrafik.daoud@gmail.com" style="color: var(--blue);">medrafik.daoud@gmail.com</a></li>
+                  
+    
+                    <li><a href="https://www.linkedin.com/in/medrafik-daoud-arch" target="_blank" style="color: var(--blue);">Profil LinkedIn</a></li>
+                     <li><a href="https://www.instagram.com/mrd_architecture" target="_blank" style="color: var(--blue);">Instagram (@mrd_architecture)</a></li>
+                     </ul>
+                
+                
+                    <div class="contact-box" style="padding: 2rem; background: var(--card-bg); border: 1px solid var(--line); border-radius: 4px;">
+                        <p>Pour toute collaboration, consultation ou demande de projet, contactez directement Rafik par email.</p>
+                        <a href="mailto:medrafik.daoud@gmail.com" class="btn" style="margin-top: 1.5rem; display: inline-block; text-align: center;">Envoyer un e-mail</a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="wrap">
+            <span>© 2026 Daoud Mohamed Rafik, architecte</span>
+            <span>Intégration Web par jalilodev</span>
+        </div>
+    </footer>
+
+    <!-- Interactive Filter Script -->
+    <script>
+        document.querySelectorAll('.filter-btn').forEach(function(b) {
+            b.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(function(x) { x.classList.remove('active'); });
+                b.classList.add('active');
+                var filter = b.dataset.f;
+                document.querySelectorAll('.card').forEach(function(c) {
+                    if (filter === 'all' || c.dataset.c === filter) {
+                        c.style.display = 'block';
+                    } else {
+                        c.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
